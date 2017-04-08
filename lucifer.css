@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'dauphin';
+	src: url('fonts/DAUPHINN.eot');
+	src: local('☺'), url('fonts/DAUPHINN.woff') format('woff'), url('fonts/DAUPHINN.ttf') format('truetype'), url('fonts/DAUPHINN.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 #lucifer {
 	position: absolute;
 	left: 50%;
@@ -7,5 +15,36 @@
 	margin-left: -33vw;
 	margin-top: -22vw;
 	font-size: 33vw;
+	text-align: center;
+	z-index: 0;
+}
 
+#luciferLatin {
+	position: absolute;
+	font-family: 'dauphin';
+	font-size: 11vw;
+	left: 50%;
+	margin-left: -7vw;
+	top: 50%;
+	margin-top: -20vw;
+}
+
+#luciferEmail {
+	position: absolute;
+	font-family: 'dauphin';
+	font-size: 2vw;
+	left: 50%;
+	margin-left: -29vw;
+	top: 50%;
+	margin-top: 12.5vw;
+	z-index: 1;
+}
+
+#luciferEmail a {
+	text-decoration: none;
+	color: #000;
+}
+
+#luciferEmail a:hover {
+	text-decoration: underline;
 }
