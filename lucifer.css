@@ -83,6 +83,11 @@
 	list-style-type: none;
 }
 
+#menu ul li {
+	display: inline;
+	margin: 11px;
+}
+
 #menu ul li a {
 	color: #000;
 	text-decoration: none;
@@ -90,4 +95,29 @@
 
 #menu ul li a:hover {
 	text-decoration: underline;
+}
+
+#doctrine {
+	position: absolute;
+	font-family: 'dauphin';
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	width: 88vw;
+	height: 44vw;
+	margin-left: -44vw;
+	margin-top: -22vw;
+}
+
+#doctrine h1 {
+	font-size: 6vw;
+}
+
+#doctrine ul {
+	list-style-type: none;
+}
+
+#doctrine ul li {
+	margin: 5vw;
+	font-size: 4vw;
 }
