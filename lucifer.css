@@ -71,3 +71,23 @@
 	background-image: url('./images/swallow.svg'), none;
 	background-position: center; 
 }
+
+#menu {
+	position: absolute;
+	font-family: 'dauphin';
+	right: 33px;
+	top: 0;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	text-decoration: underline;
+}
